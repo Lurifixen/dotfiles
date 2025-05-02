@@ -406,5 +406,10 @@
   "bar.battery.hideLabelWhenFull": false,
   "theme.bar.menus.menu.power.scaling": 100,
   "notifications.position": "top right",
-  "notifications.clearDelay": 85
+  "notifications.clearDelay": 85,
+  "menus.clock.time.military": true,
+  "menus.clock.time.hideSeconds": true,
+  "bar.clock.format": "%a %b %d  %I:%M",
+  "bar.clock.showIcon": true,
+  "bar.clock.showTime": true
 }
