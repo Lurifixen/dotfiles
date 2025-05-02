@@ -1,0 +1,26 @@
+-- Pull in the wezterm API
+local wezterm = require("wezterm")
+
+-- This will hold the configuration.
+local config = wezterm.config_builder()
+
+-- This is where you actually apply your config choices
+
+-- For example, changing the color scheme:
+config.color_scheme = "Catppuccin Frappe"
+config.enable_wayland = false
+config.font = wezterm.font()
+config.font_size = 18.0
+
+-- Tabs
+config.hide_tab_bar_if_only_one_tab = true
+config.use_fancy_tab_bar = true
+
+-- Cursor
+config.default_cursor_style = "BlinkingBlock"
+
+-- Starship
+-- config.default_prog = { "/bin/bash", "-l" }
+
+-- and finally, return the configuration to wezterm
+return config
