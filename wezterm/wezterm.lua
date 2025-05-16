@@ -80,15 +80,10 @@ config.tab_and_split_indices_are_zero_based = true
 -- tmux
 config.leader = { key = "q", mods = "CTRL", timeout_milliseconds = 2000 }
 config.keys = {
+  
   { key = 'C', mods = 'CTRL', action = wezterm.action.CopyTo 'ClipboardAndPrimarySelection' },
   { key = '+', mods = 'CTRL', action = wezterm.action.IncreaseFontSize },
   { key = '-', mods = 'CTRL', action = wezterm.action.DecreaseFontSize },
-
-  -- Attach to muxer
-  { key = 'a', mods = 'LEADER', action = act.AttachDomain 'unix' },
-
-  -- Detach from muxer
-  { key = 'd', mods = 'LEADER', action = act.DetachDomain { DomainName = 'unix' }, },
   { mods = "LEADER", key = "c", action = wezterm.action.SpawnTab "CurrentPaneDomain", },
   { mods = "LEADER", key = "x", action = wezterm.action.CloseCurrentPane { confirm = true } },
   { mods = "LEADER", key = "b", action = wezterm.action.ActivateTabRelative(-1) },
@@ -103,6 +98,13 @@ config.keys = {
   { mods = "LEADER", key = "RightArrow", action = wezterm.action.AdjustPaneSize { "Right", 5 } },
   { mods = "LEADER", key = "DownArrow", action = wezterm.action.AdjustPaneSize { "Down", 5 } },
   { mods = "LEADER", key = "UpArrow", action = wezterm.action.AdjustPaneSize { "Up", 5 } },
+  
+  -- Attach to muxer
+  { key = 'a', mods = 'LEADER', action = act.AttachDomain 'unix' },
+
+  -- Detach from muxer
+  { key = 'd', mods = 'LEADER', action = act.DetachDomain { DomainName = 'unix' }, },
+ 
 }
 
 
