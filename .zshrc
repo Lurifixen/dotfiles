@@ -59,6 +59,7 @@ alias :q='exit'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vim='nvim'
 alias dots='~/scripts/dotfiles.sh'
+alias pveping='ping 192.168.68.58'
 # Bun setup
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH

@@ -2,7 +2,7 @@
   "bar.customModules.updates.pollingInterval": 1440000,
   "theme.bar.floating": false,
   "theme.bar.transparent": true,
-  "wallpaper.image": "/run/media/luri/backup/backup/pictures/Wallpapers/astronaut.png",
+  "wallpaper.image": "/home/luri/Pictures/Wallpapers/astronaut.png",
   "theme.font.name": "JetBrains Mono",
   "theme.font.label": "JetBrains Mono",
   "theme.font.style": "normal",
@@ -411,5 +411,10 @@
   "menus.clock.time.hideSeconds": true,
   "bar.clock.format": "%a %b %d  %H:%M",
   "bar.clock.showIcon": true,
-  "bar.clock.showTime": true
+  "bar.clock.showTime": true,
+  "theme.bar.buttons.modules.worldclock.background": "#303446",
+  "theme.bar.buttons.modules.worldclock.text": "#f4b8e4",
+  "theme.bar.buttons.modules.worldclock.icon": "#f4b8e4",
+  "theme.bar.buttons.modules.worldclock.icon_background": "#f4b8e4",
+  "theme.bar.buttons.modules.worldclock.border": "#f4b8e4"
 }
