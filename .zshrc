@@ -10,9 +10,10 @@ source "${ZINIT_HOME}/zinit.zsh"
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
-zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-autosuggestions
+#zinit light zsh-users/zsh-completions
+#zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
+zinit light marlonrichert/zsh-autocomplete
 
 # Addin snippets
 zinit snippet OMZP::git
@@ -28,7 +29,7 @@ zinit cdreplay -q
 #bindkey -v #vim keys
 #bindkey '^p' history-search-backward
 #bindkey '^n' history-search-forward
-bindkey '^I' autosuggest-accept
+#bindkey '^I' autosuggest-accept
 
 # History
 HISTSIZE=5000
@@ -60,6 +61,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vim='nvim'
 alias dots='~/scripts/dotfiles.sh'
 alias pveping='ping 192.168.68.58'
+
 # Bun setup
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
