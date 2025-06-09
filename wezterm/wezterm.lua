@@ -45,21 +45,30 @@ local tabline = wezterm.plugin.require("https://github.com/michaelbrusegard/tabl
 -- })
 -- Treat leftALT as ALTGR when CTRL is pressed.
 --config.treat_left_ctrlalt_as_altgr = true
+
 -- Disable wayland to work with Hyprland
 config.enable_wayland = false
 
---ColorScheme
+-- ColorScheme
 config.color_scheme = 'Catppuccin Frappe'
 
---Font config
+-- Font config
 config.font = wezterm.font 'JetBrainsMono'
 config.font_size = 14
 config.adjust_window_size_when_changing_font_size = false
 config.automatically_reload_config = true
 
---Window decorations
+-- Window decorations
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.9
+
+-- Window padding
+config.window_padding = {
+  left = 25,
+  right = 25,
+  top = 15,
+  bottom = 15,
+}
 
 -- cursor
 config.default_cursor_style = 'BlinkingBlock'
