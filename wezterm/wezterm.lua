@@ -97,7 +97,7 @@ config.keys = {
   { mods = "LEADER", key = "x", action = wezterm.action.CloseCurrentPane { confirm = true } },
   { mods = "LEADER", key = "b", action = wezterm.action.ActivateTabRelative(-1) },
   { mods = "LEADER", key = "n", action = wezterm.action.ActivateTabRelative(1) },
-  { mods = "LEADER", key = "<", action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" } },
+  { mods = "LEADER", key = "v", action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" } },
   { mods = "LEADER", key = "-", action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" } },
   { mods = "LEADER", key = "h", action = wezterm.action.ActivatePaneDirection "Left"},
   { mods = "LEADER", key = "j", action = wezterm.action.ActivatePaneDirection "Down"},
