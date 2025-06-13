@@ -416,5 +416,6 @@
   "theme.bar.buttons.modules.worldclock.text": "#f4b8e4",
   "theme.bar.buttons.modules.worldclock.icon": "#f4b8e4",
   "theme.bar.buttons.modules.worldclock.icon_background": "#f4b8e4",
-  "theme.bar.buttons.modules.worldclock.border": "#f4b8e4"
+  "theme.bar.buttons.modules.worldclock.border": "#f4b8e4",
+  "theme.bar.buttons.battery.enableBorder": false
 }

@@ -1,8 +1,8 @@
 return {
-  { -- Fuzzy Finder (files, lsp, etc)
+-- Fuzzy Finder (files, lsp, etc)
+
     'nvim-telescope/telescope.nvim',
     event = 'VimEnter',
-    branch = '0.1.x',
     dependencies = {
       'nvim-lua/plenary.nvim',
       { -- If encountering errors, see telescope-fzf-native README for installation instructions
@@ -54,12 +54,7 @@ return {
         --     i = { ['<c-enter>'] = 'to_fuzzy_refine' },
         --   },
         -- },
-                pickers = {
-          find_files = {
-            follow = true,
-            find_command = { "rg", "--ignore", "-L", "--hidden", "--files" },
-          }
-        },
+        -- pickers = {}
         extensions = {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
@@ -107,5 +102,4 @@ return {
         builtin.find_files { cwd = vim.fn.stdpath 'config' }
       end, { desc = '[S]earch [N]eovim files' })
     end,
-  },
-}
+  }

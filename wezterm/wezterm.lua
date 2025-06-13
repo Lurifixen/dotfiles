@@ -54,7 +54,7 @@ config.color_scheme = 'Catppuccin Frappe'
 
 -- Font config
 config.font = wezterm.font 'JetBrainsMono'
-config.font_size = 14
+config.font_size = 16
 config.adjust_window_size_when_changing_font_size = false
 config.automatically_reload_config = true
 
@@ -89,7 +89,12 @@ config.tab_and_split_indices_are_zero_based = true
 -- tmux
 config.leader = { key = "q", mods = "CTRL", timeout_milliseconds = 2000 }
 config.keys = {
-  
+ 
+  { 
+    mods = 'LEADER',
+    key = 'm',
+    action = wezterm.action.TogglePaneZoomState
+  }, 
   { key = 'C', mods = 'CTRL', action = wezterm.action.CopyTo 'ClipboardAndPrimarySelection' },
   { key = '+', mods = 'CTRL', action = wezterm.action.IncreaseFontSize },
   { key = '-', mods = 'CTRL', action = wezterm.action.DecreaseFontSize },
