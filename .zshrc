@@ -59,6 +59,8 @@ alias ff='fastfetch'
 alias :q='exit'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vim='nvim'
+alias v='nvim'
+alias vi='nvim'
 alias dots='~/scripts/dotfiles.sh'
 alias pveping='ping 192.168.68.58'
 
