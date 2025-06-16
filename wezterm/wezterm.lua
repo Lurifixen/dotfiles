@@ -21,23 +21,6 @@ config.font_size = 16
 config.font = wezterm.font({ family = "JetBrains Mono" })
 config.bold_brightens_ansi_colors = true
 config.adjust_window_size_when_changing_font_size = false
-config.font_rules = {
-	{
-		intensity = "Bold",
-		italic = true,
-		font = wezterm.font({ family = "Maple Mono", weight = "Bold", style = "Italic" }),
-	},
-	{
-		italic = true,
-		intensity = "Half",
-		font = wezterm.font({ family = "Maple Mono", weight = "DemiBold", style = "Italic" }),
-	},
-	{
-		italic = true,
-		intensity = "Normal",
-		font = wezterm.font({ family = "Maple Mono", style = "Italic" }),
-	},
-}
 
 -- Window settings
 config.window_decorations = "RESIZE"
