@@ -63,6 +63,7 @@ alias v='nvim'
 alias vi='nvim'
 alias dots='~/scripts/dotfiles.sh'
 alias pveping='ping 192.168.68.58'
+alias nf='fzf -m --preview="bat --color=always {}" --bind "enter:become(nvim {+})"'
 
 # Bun setup
 export BUN_INSTALL="$HOME/.bun"
