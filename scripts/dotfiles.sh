@@ -12,6 +12,7 @@ cp -r ~/.config/wlogout ~/dotfiles
 cp -r ~/.config/starship.toml ~/dotfiles
 cp -r ~/.config/dolphinrc ~/dotfiles
 cp -r ~/scripts/ ~/dotfiles
+cp -r ~/scripts/ ~/dotfiles
 
 cd ~/dotfiles
 git add --all

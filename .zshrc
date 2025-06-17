@@ -53,17 +53,20 @@ setopt hist_find_no_dups
 
 # Aliases
 #alias ls='lsd --timesort --header'
-alias ls='eza --icons -l --hyperlink --header'
+# alias ls='eza --icons -l --hyperlink --header'
+alias ls='eza --icons --hyperlink --header'
+alias ll='eza -alh --icons --hyperlink --header'
+alias tree='eza --tree --icons --hyperlink'
 alias c='clear'
 alias ff='fastfetch'
 alias :q='exit'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vim='nvim'
-alias v='nvim'
 alias vi='nvim'
+alias v='nvim'
+alias nf='fzf -m --preview="bat --color=always {}" --bind "enter:become(nvim {+})"'
 alias dots='~/scripts/dotfiles.sh'
 alias pveping='ping 192.168.68.58'
-alias nf='fzf -m --preview="bat --color=always {}" --bind "enter:become(nvim {+})"'
 
 # Bun setup
 export BUN_INSTALL="$HOME/.bun"
