@@ -19,6 +19,7 @@ config.color_scheme = "Catppuccin Frappe"
 -- Fonts
 config.font_size = 16
 config.font = wezterm.font("JetBrains Mono", { weight = "Medium" })
+-- config.line_height = 1.3
 config.bold_brightens_ansi_colors = true
 config.adjust_window_size_when_changing_font_size = false
 
