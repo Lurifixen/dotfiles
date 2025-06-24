@@ -417,5 +417,44 @@
   "theme.bar.buttons.modules.worldclock.icon": "#f4b8e4",
   "theme.bar.buttons.modules.worldclock.icon_background": "#f4b8e4",
   "theme.bar.buttons.modules.worldclock.border": "#f4b8e4",
-  "theme.bar.buttons.battery.enableBorder": false
+  "theme.bar.buttons.battery.enableBorder": false,
+  "notifications.monitor": 1,
+  "theme.notification.border_radius": "0.6em",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.font.size": "1.2rem",
+  "scalingPriority": "gdk"
 }

@@ -11,7 +11,13 @@ format = """$python$directory$character"""
 #right_format = """$status$git_branch${custom.git_status_dirty}$git_status"""
 right_format = """$status$cmd_duration$git_branch${custom.git_status_dirty}$git_status"""
 
-palette="wombat"
+palette="tokyo_night"
+[username]
+style_user = 'white bold'
+style_root = 'black bold'
+format = 'user: [$user]($style) '
+disabled = false
+show_always = true
 
 # Define custom colors
 [palettes.tokyo_night]
@@ -55,7 +61,7 @@ white = '188'
 yellow = '223'
 
 [character]
-success_symbol = "[❯](cyan)"
+success_symbol = "[❯](purple)"
 error_symbol = "[❯](red)"
 vicmd_symbol = "[❮](cyan)"
 

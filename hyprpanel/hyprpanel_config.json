@@ -1,0 +1,87 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "theme.bar.floating": false,
+  "theme.bar.transparent": false,
+  "wallpaper.image": "/home/luri/Pictures/Wallpapers/flower-field.jpg",
+  "theme.font.name": "JetBrains Mono",
+  "theme.font.label": "JetBrains Mono",
+  "theme.font.style": "normal",
+  "wallpaper.enable": true,
+  "menus.power.showLabel": false,
+  "theme.bar.menus.menu.battery.scaling": 100,
+  "bar.battery.label": false,
+  "theme.bar.enableShadow": false,
+  "theme.bar.opacity": 100,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.show_numbered": true,
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.workspaces.showWsIcons": false,
+  "menus.dashboard.powermenu.avatar.name": "Luri",
+  "menus.dashboard.powermenu.avatar.image": "/home/luri/Pictures/Avatars/0ee7892c14434435f4223e7773407c38.jpg",
+  "bar.windowtitle.custom_title": true,
+  "bar.windowtitle.class_name": true,
+  "bar.windowtitle.label": true,
+  "bar.windowtitle.icon": true,
+  "bar.autoHide": "never",
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.scaling": 89,
+  "theme.notification.scaling": 100,
+  "theme.bar.menus.menu.dashboard.scaling": 85,
+  "theme.bar.buttons.modules.power.enableBorder": false,
+  "menus.dashboard.directories.left.directory1.label": "󰉍  Downloads",
+  "menus.dashboard.directories.left.directory2.label": "󰉏  Videos",
+  "menus.dashboard.directories.left.directory3.label": "󰚝  Projects",
+  "menus.dashboard.directories.right.directory1.label": "󱧶  Documents",
+  "menus.dashboard.directories.right.directory2.label": "󰉏  Pictures",
+  "menus.dashboard.directories.right.directory3.label": "󱂵  Home",
+  "bar.battery.hideLabelWhenFull": false,
+  "theme.bar.menus.menu.power.scaling": 100,
+  "notifications.position": "top right",
+  "notifications.clearDelay": 85,
+  "menus.clock.time.military": true,
+  "menus.clock.time.hideSeconds": true,
+  "bar.clock.format": "%a %b %d  %H:%M",
+  "bar.clock.showIcon": true,
+  "bar.clock.showTime": true,
+  "theme.bar.buttons.battery.enableBorder": false,
+  "notifications.monitor": 1,
+  "theme.notification.border_radius": "0.6em",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.font.size": "1.2rem",
+  "scalingPriority": "gdk"
+}
