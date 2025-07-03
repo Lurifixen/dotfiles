@@ -409,7 +409,7 @@
   "notifications.clearDelay": 85,
   "menus.clock.time.military": true,
   "menus.clock.time.hideSeconds": true,
-  "bar.clock.format": "%a %b %d  %H:%M",
+  "bar.clock.format": "%a %d  %H:%M:%S",
   "bar.clock.showIcon": true,
   "bar.clock.showTime": true,
   "theme.bar.buttons.modules.worldclock.background": "#303446",
@@ -456,5 +456,8 @@
     }
   },
   "theme.font.size": "1.2rem",
-  "scalingPriority": "gdk"
+  "scalingPriority": "gdk",
+  "menus.clock.weather.location": "Stockholm",
+  "menus.clock.weather.unit": "metric",
+  "bar.clock.icon": ""
 }

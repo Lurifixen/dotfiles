@@ -76,5 +76,3 @@ export PATH=$BUN_INSTALL/bin:$PATH
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
-
-fastfetch
