@@ -409,7 +409,7 @@
   "notifications.clearDelay": 85,
   "menus.clock.time.military": true,
   "menus.clock.time.hideSeconds": true,
-  "bar.clock.format": "%a %d  %H:%M:%S",
+  "bar.clock.format": "%a %d  %H:%M",
   "bar.clock.showIcon": true,
   "bar.clock.showTime": true,
   "theme.bar.buttons.modules.worldclock.background": "#303446",
