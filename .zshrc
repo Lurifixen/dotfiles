@@ -67,6 +67,8 @@ alias v='nvim'
 alias nf='fzf -m --preview="bat --color=always {}" --bind "enter:become(nvim {+})"'
 alias dots='~/scripts/dotfiles.sh'
 alias pveping='ping 192.168.68.58'
+alias pve='ssh root@192.168.68.58'
+alias tailrouter='ssh root@192.168.68.59'
 
 # Bun setup
 export BUN_INSTALL="$HOME/.bun"
