@@ -25,7 +25,7 @@ config.adjust_window_size_when_changing_font_size = false
 
 -- Window settings
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.95
 config.window_padding = { left = 25, right = 25, top = 15, bottom = 15 }
 
 -- Tab settings
