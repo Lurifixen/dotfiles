@@ -1,8 +1,8 @@
 {
   "bar.customModules.updates.pollingInterval": 1440000,
   "theme.bar.floating": false,
-  "theme.bar.transparent": false,
-  "wallpaper.image": "/home/luri/Pictures/Wallpapers/flower-field.jpg",
+  "theme.bar.transparent": true,
+  "wallpaper.image": "/home/luri/Pictures/Wallpapers/astronaut.png",
   "theme.font.name": "JetBrains Mono",
   "theme.font.label": "JetBrains Mono",
   "theme.font.style": "normal",
@@ -512,5 +512,7 @@
   "red1": "#c53b53",
   "teal": "#4fd6be",
   "terminal_black": "#444a73",
-  "yellow": "#ffc777"
+  "yellow": "#ffc777",
+  "bar.network.label": false,
+  "theme.bar.buttons.network.enableBorder": false
 }
