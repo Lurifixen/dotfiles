@@ -514,5 +514,6 @@
   "terminal_black": "#444a73",
   "yellow": "#ffc777",
   "bar.network.label": false,
-  "theme.bar.buttons.network.enableBorder": false
+  "theme.bar.buttons.network.enableBorder": false,
+  "theme.bar.margin_sides": "0.5em"
 }

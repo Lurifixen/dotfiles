@@ -54,7 +54,7 @@ setopt hist_find_no_dups
 # Aliases
 #alias ls='lsd --timesort --header'
 # alias ls='eza --icons -l --hyperlink --header'
-alias ls='eza --icons --hyperlink --header'
+alias ls='eza -alh --icons --hyperlink --header'
 alias ll='eza -alh --icons --hyperlink --header'
 alias tree='eza --tree --icons --hyperlink'
 alias c='clear'
@@ -78,3 +78,5 @@ export PATH=$BUN_INSTALL/bin:$PATH
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
+
+export PATH=$PATH:/home/luri/.spicetify

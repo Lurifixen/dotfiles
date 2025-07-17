@@ -14,6 +14,7 @@ config.automatically_reload_config = true
 config.enable_wayland = false
 
 -- ColorScheme
+-- config.color_scheme = "GruvboxDark"
 config.color_scheme = "Catppuccin Frappe"
 
 -- Fonts
@@ -26,7 +27,7 @@ config.adjust_window_size_when_changing_font_size = false
 -- Window settings
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.95
-config.window_padding = { left = 25, right = 25, top = 15, bottom = 15 }
+config.window_padding = { left = 25, right = 25, top = 25, bottom = 15 }
 
 -- Tab settings
 config.tab_bar_at_bottom = true
